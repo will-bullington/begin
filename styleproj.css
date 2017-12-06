@@ -1,0 +1,159 @@
+/* -- page structure -- */
+#container
+{
+width: 100%;
+text-align: left;
+margin: 0;
+background: #fff;
+}
+
+#footer
+{
+text-align:center;
+font-size: small;
+}
+#mainContent{
+ max-width: 960px;
+ min-width: 350px;
+ padding: 30px;
+ padding-bottom: 5px;
+ border-bottom: solid 1px #1f618d;
+ text-align: left;
+}
+#footer{
+  max-width: 960px;
+  min-width: 350px;
+  padding: 40px;
+}
+#sitename a
+{
+   max-width: 960px;
+   min-width: 350px;
+   padding: 28px;
+ }
+ li
+ {
+   max-width: 960px;
+   min-width: 350px;
+   padding: 40px;
+   margin: 50px;
+ }
+/* -- general -- */
+body
+{
+color: #1F618D;
+font-size: 75%;
+font-family: "Lucida Grande" , "Lucida Sans Unicode" , Verdana, Tahoma, Arial, sans-serif;
+line-height: 160%;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+h1
+{
+font: bold 24px Helvetica, Arial, sans-serif;
+color: ##1f618d;
+letter-spacing: -1px;
+margin: 2em 0 0 0;
+}
+
+h2 {
+/* border-top: 1px solid #154360; */
+padding-top: 5px;
+color: #1f618d;
+font: normal 18px Helvetica, Arial, sans-serif;
+margin: 2em 0 0 0;
+}
+h3 {
+font-size: 12px;
+color: #1F618D;
+margin: 1em 0 0 0;
+position: relative;
+}
+
+
+/* -- header/title -- */
+#pageHeader
+{
+width: 100%;
+height: 80px;
+background: #154360;
+}
+#pageHeader h1
+{
+color: #fff;
+margin: 0;
+padding-top: 25px;
+font: bold Helvetica;
+letter-spacing: -1px;
+text-shadow: 0 2px 0 #510000;
+}
+#pageHeader a
+{
+border-bottom: none;
+color: #fff;
+background-color: #154360;
+text-decoration: none;
+}
+
+/* -- nav bar -- */
+#selectionbar
+{
+color: #fff;
+height: 46px;
+background: #1F618D;
+font-size: 90%;
+}
+#selectionbar ul
+{
+  float: right;
+  padding: 10px 40px;
+  margin: 0 auto;
+  display: block;
+}
+#selectionbar li
+{
+display: inline;
+list-style: none;
+}
+#selectionbar a
+{
+color: #fff;
+display: block;
+float: right;
+padding: 1px 9px 3px 6px;
+margin: 0 6px;
+text-decoration: none;
+}
+#selectionbar a:hover
+{
+border-bottom: none;
+color: yellow;
+background-color: transparent;
+text-decoration: none;
+}
+/* -- main content -- */
+#mainContent
+{
+font-size: 100%;
+}
+#mainContent ul li
+{
+list-style: inherit;
+padding: 0 0 0 5px;
+margin: 0;
+}
+a
+{
+color: #1F618D;
+text-decoration: none;
+border-bottom: dotted 1px black;
+}
+
+#mainContent blockquote
+{
+padding: 0 0 0 15px;
+margin: 10px 0 10px 15px;
+width: auto;
+float: right;
+}
