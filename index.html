@@ -14,7 +14,7 @@
   }
 
   header {
-    margin-bottom: 0;
+
     border-style: solid;
     height: 150px;
     background-color:grey;
@@ -24,7 +24,8 @@
     padding-left: 8em;
     font-size:400%;
     margin-top: 28px;
-    font-style: arial, sans-serif;
+
+
 
   }
 
@@ -32,10 +33,10 @@
     display:block;
     list-style-type: none;
     border-style: solid;
-    border-top: 1px;
-    background-color: grey;
-    height: 4em;
-    margin-top:0;
+    border-top: 0px;
+    background-color: darkgrey;
+    height: 5em;
+
 
 
 
@@ -47,8 +48,8 @@
     float: right;
     list-style-type: none;
     text-align: center;
-    margin-bottom: 2em;
     height: 2em;
+    padding-top: 4px;
 
 
   }
@@ -58,7 +59,10 @@
     text-align:center;
     text-decoration: none;
     margin-bottom: 2em;
-    background-color: darkgrey;
+    background-color: grey;
+    border-style: solid;
+    border-width: 1px;
+
   }
 
   a {
@@ -70,12 +74,12 @@
   }
   .facts {
     border-style: solid;
-    background-color:grey;
+    background-color:darkgrey;
   }
 
 body {
-  background-color: midnightblue;
-  font-family: sans-serif, arial;
+  background-color: #1F168D;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Tahoma, Arial, sans-serif;
 }
 
 .tips img {
@@ -83,10 +87,11 @@ float: right;
  height: 15%;
   width: 15%;
   margin-bottom: 2em
+
 }
 
 .tips {
-  background-color: grey;
+  background-color: darkgrey;
   margin-top: 10px;
   border-style: solid;
   margin-bottom: 10px;
@@ -110,8 +115,15 @@ footer {
   margin-top: 1em;
   border-style: solid;
   background-color: grey;
-  height: 8em;
+  height: 9em;
   text-align: center;
+  font-size: 75%;
+}
+.slog {
+  float: left;
+  margin-top: 25px;
+  font-size: 150%;
+}
 }
 
   </style>
@@ -125,32 +137,34 @@ footer {
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Computer.svg/2000px-Computer.svg.png" class="img1"
       alt=computer>
      </div>
-    <div id="title" class="tit"> Security Smart </div>
+    <div id="title" class="tit">Security Smart </div>
   </header>
 </div>
     <nav>
-      <ul>
+      <div id="slogan" class="slog">
+        Safe. Locked. Smart... <em>Security Smart</em> </div>
         <li><a href="index.html">Home</a></li>
         <li><a href="content_page.html">Choosing a Good Password</a></li>
         <li><a href="weaknesses.html">Weaknesses</a></li>
       </nav>
     </div>
 
-
-  <div id="tips" class="tips">
+ <section id="tips">
+  <div itemprop itemtype="http://schem.org/Action" class="tips">
 <h1>Tip of the day</h1>
     <p> <img src="https://openclipart.org/image/2400px/svg_to_png/211406/1420410880.png" style="float:right;width:10em;height:10em;" class="key">
-      Shelley Lebreque from lovetoknow.com states that Firewalls are a great place to start with computer safety.
+      <span itemtype="agent">Shelley Lebreque</span> from lovetoknow.com states that <span itemtype="instrument">Firewalls</span> are a great place to start with computer safety.
       "If you connect to the internet, you should always run a firewall. A firewall can block outside communication
      if you haven't authorized it and even stop data from entering or leaving the computer without your permission.
-      There are both hardware and software firewalls, and you can run both at the same time.
+      There are both <span itemtype="instrument">hardware</span> and <span itemtype="instrument">software</span> firewalls, and you can run both at the same time.
      Software firewalls often come as part of an operating system. For example, Windows includes one,
     and you should always have it on unless you decide to get your own. As with any software, you can
      shop around for a commercial firewall that is configured with the features that are most important to you.
     You can buy a hardware firewall as a stand-alone product, or they are also often included in broadband routers.
-     A router is good to have as another layer of protection; your computer can sit behind it and make it even harder
+     A router is good to have as another layer of <spaan itemtype="result">protection</span>; your computer can sit behind it and make it even harder
       for hackers to get to it. Ensure you use a high-quality firewall and configure it properly by changing all default passwords."
     </div>
+  </section>
 
     <div id="Security Statistics" class="facts">
       <img src="http://tlists.com/wp-content/uploads/2017/03/growth-1024x641.png" alt="bar graph" class="chart">
