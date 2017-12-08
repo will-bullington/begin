@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Security Smart</title>
+  <style type="text/css">
+
+  header img {
+    float: left;
+    height: 10%;
+    width: 10%;
+    margin-top: 7px;
+  }
+
+  header {
+
+    border-style: solid;
+    height: 150px;
+    background-color:grey;
+  }
+
+  .tit {
+    padding-left: 8em;
+    font-size:400%;
+    margin-top: 28px;
+
+
+
+  }
+
+  nav {
+    display:block;
+    list-style-type: none;
+    border-style: solid;
+    border-top: 0px;
+    background-color: darkgrey;
+    height: 5em;
+
+
+
+
+
+  }
+
+  li {
+    display:block;
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    height: 2em;
+    padding-top: 4px;
+
+
+  }
+
+  li a {
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    margin-bottom: 2em;
+    background-color: grey;
+    border-style: solid;
+    border-width: 1px;
+
+  }
+
+  a {
+
+    padding: 20px;
+    margin-top:3px;
+    text-align:center;
+
+  }
+  .facts {
+    border-style: solid;
+    background-color:darkgrey;
+  }
+
+body {
+  background-color: #1F168D;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Tahoma, Arial, sans-serif;
+}
+
+.tips img {
+float: right;
+ height: 15%;
+  width: 15%;
+  margin-bottom: 2em
+
+}
+
+.tips {
+  background-color: darkgrey;
+  margin-top: 10px;
+  border-style: solid;
+  margin-bottom: 10px;
+  overflow:auto;
+}
+
+.chart {
+  float: right;
+  height: 20%;
+  width:20%;
+  margin-top:6em;
+
+}
+h1 {
+  border-bottom-style:solid;
+  padding-bottom: 1em;
+  border-width: 1px;
+}
+
+footer {
+  margin-top: 1em;
+  border-style: solid;
+  background-color: grey;
+  height: 9em;
+  text-align: center;
+  font-size: 75%;
+}
+.slog {
+  float: left;
+  margin-top: 25px;
+  font-size: 150%;
+}
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div id="header">
+  <header>
+    <div id="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Computer.svg/2000px-Computer.svg.png" class="img1"
+      alt=computer>
+     </div>
+    <div id="title" class="tit">Security Smart </div>
+  </header>
+</div>
+    <nav>
+      <div id="slogan" class="slog">
+        Safe. Locked. Smart... <em>Security Smart</em> </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content_page.html">Choosing a Good Password</a></li>
+        <li><a href="weaknesses.html">Weaknesses</a></li>
+      </nav>
+    </div>
+
+ <section id="tips">
+  <div itemprop itemtype="http://schem.org/Action" class="tips">
+<h1>Tip of the day</h1>
+    <p> <img src="https://openclipart.org/image/2400px/svg_to_png/211406/1420410880.png" style="float:right;width:10em;height:10em;" class="key">
+      <span itemtype="agent">Shelley Lebreque</span> from lovetoknow.com states that <span itemtype="instrument">Firewalls</span> are a great place to start with computer safety.
+      "If you connect to the internet, you should always run a firewall. A firewall can block outside communication
+     if you haven't authorized it and even stop data from entering or leaving the computer without your permission.
+      There are both <span itemtype="instrument">hardware</span> and <span itemtype="instrument">software</span> firewalls, and you can run both at the same time.
+     Software firewalls often come as part of an operating system. For example, Windows includes one,
+    and you should always have it on unless you decide to get your own. As with any software, you can
+     shop around for a commercial firewall that is configured with the features that are most important to you.
+    You can buy a hardware firewall as a stand-alone product, or they are also often included in broadband routers.
+     A router is good to have as another layer of <spaan itemtype="result">protection</span>; your computer can sit behind it and make it even harder
+      for hackers to get to it. Ensure you use a high-quality firewall and configure it properly by changing all default passwords."
+    </div>
+  </section>
+
+    <div id="Security Statistics" class="facts">
+      <img src="http://tlists.com/wp-content/uploads/2017/03/growth-1024x641.png" alt="bar graph" class="chart">
+      <h1>Security Statistics</h1>
+      <p>In order to better understand how important computer security really is, here are 5 statistics from Steve Morgan
+        with CSO:
+        <br></br>
+        1. <b>Cyber crime damage costs to hit $6 trillion annually by 2021. </b> It all begins and ends with cyber crime. Without
+         it, there's nothing to cyber-defend. The cybersecurity community and major media have largely concurred on the prediction
+          that cyber crime damages will cost the world $6 trillion annually by 2021, up from $3 trillion just a year ago. This represents
+           the greatest transfer of economic wealth in history, risks the incentives for innovation and investment, and will be more profitable
+            than the global trade of all major illegal drugs combined.
+            <br><br>
+      2. <b>Cybersecurity spending to exceed $1 trillion from 2017 to 2021.</b> The rising tide of cyber crime has pushed information
+       security (a subset of cybersecurity) spending to more than $86.4 billion in 2017, according to Gartner. That doesn't include
+        an accounting of internet of things (IoT), industrial IoT, and industrial control systems (ICS) security, automotive security,
+         and other cybersecurity categories. Global spending on cybersecurity products and services are predicted to exceed $1 trillion
+          over the next five years, from 2017 to 2021.
+          <br></br>
+     3. <b>Cyber crime will more than triple the number of unfilled cybersecurity jobs, which is predicted to reach 3.5 million by 2021.</b> Every
+      IT position is also a cybersecurity position now. Every IT worker, every technology worker, needs to be involved with protecting and defending
+    apps, data, devices, infrastructure and people. The cybersecurity workforce shortage is even worse than what the jobs numbers suggest. As a result,
+     the cybersecurity unemployment rate has dropped to zero percent.
+      <br></br>
+      4. <b>Human attack surface to reach 6 billion people by 2022.</b> As the world goes digital, humans have moved ahead of machines as the top target for
+     cyber criminals. There are 3.8 billion internet users in 2017 (51 percent of the world’s population of 7 billion), up from 2 billion in 2015.
+      Cybersecurity Ventures predicts there will be 6 billion internet users by 2022 (75 percent of the projected world population of 8 billion) —
+      and more than 7.5 billion internet users by 2030 (90 percent of the projected world population of 8.5 million, 6 years of age and older).
+      The hackers smell blood now, not silicon.
+     <br></br>
+     5. <b>Global ransomware damage costs are predicted to exceed $5 billion in 2017.</b> That's up from $325 million in 2015—a 15X increase in two years,
+      and expected to worsen. Ransomware attacks on healthcare organizations—the No. 1 cyber-attacked industry—will quadruple by 2020. Cybersecurity
+       Ventures predicts that a business will fall victim to a ransomware attack every 14 seconds by 2019.
+     </p>
+   </div>
+
+   <footer>
+     <p> Security Smart LLC ICT 390 <br></br>
+       Klayton Tucker, Drew Hardesty, Will bullington
+       <br></br>
+       SecuritySmartLLC@ICT390.<br></br>
+       <time datetime="2017-12-2">
+       </p>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
